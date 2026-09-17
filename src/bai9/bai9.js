@@ -3,26 +3,26 @@ console.log("This is ninth lecture");
 // score: Giỏi, Khá, Trung bình, Yếu, Kém
 const score = 10;
 // Cách 1
-// switch (score) {
-//   case 10:
-//   case 9:
-//     console.log("Giỏi");
-//     break;
-//   case 8:
-//     console.log("Khá");
-//     break;
-//   case 6:
-//   case 7:
-//     console.log("Trung bình");
-//     break;
-//   case 4:
-//   case 5:
-//     console.log("Yếu");
-//     break;
-//   default:
-//     console.log("Kém");
-//     break;
-// }
+switch (score) {
+  case 10:
+  case 9:
+    console.log("Giỏi");
+    break;
+  case 8:
+    console.log("Khá");
+    break;
+  case 6:
+  case 7:
+    console.log("Trung bình");
+    break;
+  case 4:
+  case 5:
+    console.log("Yếu");
+    break;
+  default:
+    console.log("Kém");
+    break;
+}
 
 // Cách 2
 switch (true) {
