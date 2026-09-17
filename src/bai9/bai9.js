@@ -1,7 +1,7 @@
 console.log("This is ninth lecture");
 
 // score: Giỏi, Khá, Trung bình, Yếu, Kém
-const score = 9;
+const score = 10;
 // Cách 1
 // switch (score) {
 //   case 10:
@@ -26,7 +26,7 @@ const score = 9;
 
 // Cách 2
 switch (true) {
-  case score > 8 && score <= 10:
+  case score > 8 && score <= 10: //Giá trị trả ra là true
     console.log("Giỏi");
     break;
   case score > 6 && score <= 8:
