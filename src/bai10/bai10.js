@@ -27,3 +27,11 @@ do {
 0;
 // Đối với vòng lặp do-while thì nó vẫn sẽ thực hiện tối thiểu 1 lần dù điều kiện có sai đi nữa.
 //Cung cấp thêm sức mạnh nếu trường hợp code bị sai
+
+let password;
+
+do {
+  password = prompt("Nhập mật khẩu:");
+} while (password !== "123456");
+
+console.log("Đăng nhập thành công!");
