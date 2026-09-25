@@ -30,6 +30,13 @@ for (let i = 1; i <= myClass.length; i++) {
 //for - each loop : Vòng lặp hiện đơn hơn, dùng để thao tác với đói tượng
 console.log("===================");
 console.log("This is for-each loop");
+console.log("This is normal function");
 myClass.forEach(function (value, index) {
+  console.log("Value = ", value, "Index = ", index);
+});
+
+console.log("===========");
+console.log("This is arrow funstion");
+myClass.forEach((value, index) => {
   console.log("Value = ", value, "Index = ", index);
 });
